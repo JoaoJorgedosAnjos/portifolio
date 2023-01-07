@@ -6,7 +6,7 @@ export function Header() {
     return (
         <S.Header>
             <S.Div>
-                <FaHatWizard/>
+                
             </S.Div>
             <Burger />
         </S.Header>
