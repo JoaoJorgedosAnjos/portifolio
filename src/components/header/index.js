@@ -1,5 +1,4 @@
 import { Burger } from "./burguer"
-import { FaHatWizard} from 'react-icons/fa';
 import * as S from "./style"
 
 export function Header() {
