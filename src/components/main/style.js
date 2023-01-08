@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Container = styled.main`
 width:100;
-height:79.4vh;
+height:77.4vh;
 display:flex;
 justify-content:center;
 align-items: center;
@@ -21,17 +21,16 @@ div{
     p,h2{
         font-size:40px;
         font-weight: 700;  
-        //backdrop-filter: blur(10px);
     }
     h1{
         font-size:46px;
         font-weight: 700;
-        //backdrop-filter: blur(10px);
         
     }
 }
 span{
   border-radius:25px;
+  color:#FFBF00;
   
 
 }

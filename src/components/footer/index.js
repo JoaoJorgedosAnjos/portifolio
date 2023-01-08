@@ -9,10 +9,10 @@ export const Footer = () => {
             <h2>me envie uma mensagem!</h2>
             <ul>
                <li><AiFillLinkedin/></li>
-               <li><BsTelegram/></li>
-               <li><AiOutlineWhatsApp/></li>
                <li><AiFillGithub/></li>
                <li><SiGmail/></li>   
+               <li><AiOutlineWhatsApp/></li>
+               <li><BsTelegram/></li>
             </ul>
 
         </S.Container>

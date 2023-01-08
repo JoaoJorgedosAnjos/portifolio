@@ -35,8 +35,8 @@ li{
     &:hover{
         border: 1px solid;
         cursor:pointer;
-        transition:0.6s ease-in-out;
-        color:blueviolet;
+        transition:0.4s ease-in-out;
+        color:#FFBF00;
 
     }
 }
