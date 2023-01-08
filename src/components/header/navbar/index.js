@@ -1,7 +1,6 @@
 import * as S from "./style"
-import { GiSpellBook, GiLaptop, GiMagicPortal,GiCrystalBall, GiWizardStaff} from 'react-icons/gi';
-import { AiOutlineHome, AiOutlineUser, AiOutlineMessage} from 'react-icons/ai';
-import { GrContact } from 'react-icons/gr';
+import { GiSpellBook, GiLaptop} from 'react-icons/gi';
+import { AiOutlineHome, AiOutlineUser} from 'react-icons/ai';
 
 export const Navbar = ({open}) => {
     return (
@@ -10,7 +9,6 @@ export const Navbar = ({open}) => {
             <li><AiOutlineUser/> Sobre</li> 
             <li><GiSpellBook/> Habilidades</li>
             <li><GiLaptop/> Projetos</li>
-            <li><AiOutlineMessage/> Contato</li>
         </S.Ul>
     )
 }
