@@ -8,7 +8,6 @@ export const Ul = styled.ul`
     font-size:22px;
     font-weight:700;
     
-
     li{
       padding:10px;
       border-radius:15px;
