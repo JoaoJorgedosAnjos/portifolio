@@ -1,32 +1,25 @@
 import styled from "styled-components"
 
-export const Ul = styled.ul`
+export const Nav = styled.nav`
     display:flex;
     flex-flow: row nowrap;
-    gap:20px;
+    gap:30px;
     color: #fff;
     font-size:22px;
     font-weight:700;
-    
-    li{
-      padding:10px;
-      border-radius:15px;
-      position:relative;
 
-      &&:after{
-        content:"",
-        position:absolute;
-        top:0;
-        left:0;
-        height:10px;
-        width:100%;
-        background-color:red;
+    a{
+      color:white;
+      &:hover{
+        transition:0.4s ease-in-out;
+        color:#FFBF00; 
       }
-      }    
+    }
+    
+      
     @media (max-width: 975px) {
         flex-flow: column nowrap;
         background-color: rgba(25,25,25, 0.3);
-        //background-color: black;
         position: fixed;
         transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: 0;
