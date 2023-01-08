@@ -8,10 +8,11 @@ justify-content:center;
 align-items: center;
 color:white;
 
+
 section{
     display:flex;
     @media (max-width: 975px){
-        display:block;
+        display:block;   
     }
 }
 div{
@@ -23,6 +24,7 @@ div{
     height:400px;
     @media (max-width: 975px){
         height:300px;
+        width:300px;
     }
     
     p,h2{
@@ -30,7 +32,6 @@ div{
         font-weight: 700;  
         @media (max-width: 975px){
             font-size:25px;
-
         }
     }
     h1{
@@ -38,21 +39,17 @@ div{
         font-weight: 700;
         @media (max-width: 975px){
             font-size:30px;
-        }
-        
+        }  
     }
 }
 span{
   border-radius:25px;
   color:#FFBF00;
-  
-
 }
 
 
 `
 export const ImgPhoto = styled.img`
-
     width:335px;
     border-radius:50%;
     //transform: rotate(-10deg);
