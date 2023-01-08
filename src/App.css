@@ -16,6 +16,12 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  background-image: url(./components/img/bc.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
 }
 
 .App-header {
