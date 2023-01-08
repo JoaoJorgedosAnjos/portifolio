@@ -23,14 +23,11 @@ export const Ul = styled.ul`
         width:100%;
         background-color:red;
       }
-    
-
-      }
-
-    
-    @media (max-width: 825px) {
+      }    
+    @media (max-width: 975px) {
         flex-flow: column nowrap;
         background-color: rgba(25,25,25, 0.3);
+        //background-color: black;
         position: fixed;
         transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: 0;
@@ -40,6 +37,10 @@ export const Ul = styled.ul`
         padding-top: 3.5rem;
         transition: transform 0.3s ease-in-out;
         gap:20px;
+
+        @media (max-width: 680px){
+          background-color: rgba(25,25,25, 0.9);
+        }
         
         li {
           margin-left:15px;

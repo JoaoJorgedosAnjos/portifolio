@@ -10,6 +10,9 @@ color:white;
 
 section{
     display:flex;
+    @media (max-width: 975px){
+        display:block;
+    }
 }
 div{
     display:flex;
@@ -18,14 +21,24 @@ div{
     align-items: center;
     width:500px;
     height:400px;
+    @media (max-width: 975px){
+        height:300px;
+    }
     
     p,h2{
         font-size:40px;
         font-weight: 700;  
+        @media (max-width: 975px){
+            font-size:25px;
+
+        }
     }
     h1{
         font-size:46px;
         font-weight: 700;
+        @media (max-width: 975px){
+            font-size:30px;
+        }
         
     }
 }
@@ -38,13 +51,16 @@ span{
 
 
 `
-export const ImgPhoto =styled.img`
+export const ImgPhoto = styled.img`
 
     width:335px;
     border-radius:50%;
-    transform: rotate(-10deg);
-    border:5px solid white;
+    //transform: rotate(-10deg);
+    //border:5px solid white;
     box-shadow: rgba(255, 255, 255, 0.4) 0px 5px 15px;
+    @media (max-width: 975px){
+        width:300px;
+    }
 `
 export const imgMage = styled.img`
 width:100px;
