@@ -2,11 +2,12 @@ import styled from "styled-components"
 
 export const Container = styled.main`
 width:100;
-height:77.4vh;
+height:79.4vh;
 display:flex;
 justify-content:center;
 align-items: center;
 color:white;
+
 section{
     display:flex;
 }
@@ -34,6 +35,7 @@ span{
   
 
 }
+
 
 `
 export const ImgPhoto =styled.img`

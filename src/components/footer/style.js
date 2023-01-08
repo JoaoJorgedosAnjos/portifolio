@@ -8,9 +8,7 @@ display:flex;
 justify-content:center;
 align-items: center;
 flex-direction:column;
-//background-color:red;
 gap:10px;
-//margin-top:-10px;
 
 h2{
     margin-top: -10px;
@@ -18,27 +16,22 @@ h2{
 
 ul{
     display:flex;
-    gap:20px;
-    
-    
-    
+    gap:25px;  
 }
 li{
     display:flex;
     justify-content:center;
     align-items: center;
-    width:45px;
-    height:45px;
-    font-size:25px;
-    border-radius:50%;
+    font-size:30px;
     
+a{
+    text-decoration: none;
+    color: #FFF;
     &:hover{
-        border: 1px solid;
-        cursor:pointer;
         transition:0.4s ease-in-out;
-        color:#FFBF00;
-
-    }
+        color:#FFBF00;    
+        }
+      }
 }
 
 `
