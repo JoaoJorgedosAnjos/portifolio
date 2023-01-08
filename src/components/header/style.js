@@ -10,6 +10,17 @@ padding:0 20px;
 `
 
 export const Div = styled.div`
-font-size:40px;
-color:white;
+color:#FFBF00;
+
+
+h2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    border:1px solid;
+    border-radius:50%;
+    width:45px;
+    height:45px;
+}
 `
