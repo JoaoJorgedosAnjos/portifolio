@@ -18,7 +18,7 @@ h2{
     align-items:center;
     justify-content:center;
     font-size:22px;
-    border:1px solid;
+    border:2px solid;
     border-radius:50%;
     width:45px;
     height:45px;
