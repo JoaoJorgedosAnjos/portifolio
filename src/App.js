@@ -1,11 +1,12 @@
-import './App.css';
-import { Home } from "./pages/home"
+import { AppRoutes } from './pages/routes';
+import { GlobalStyle } from './app-style';
 
 function App() {
   return (
-    <div>
-      <Home/>
-    </div>
+    <>
+      <GlobalStyle />
+      <AppRoutes />
+    </>
   );
 }
 
