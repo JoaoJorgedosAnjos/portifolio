@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import  Bc  from "./components/img/bc.png"
+import Pc from "./components/img/pc.gif"
 
 export const GlobalStyle = createGlobalStyle`
 *{
@@ -8,15 +8,17 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-
   body{
-      background-image:url(${Bc});
+      background-image:url(${Pc});
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       height: 100vh;
       width: 100%;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto', sans-serif;  
+      @media (max-width: 975px){
+       background-repeat: repeat;
+    }   
       
   }
   a{
