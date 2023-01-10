@@ -34,7 +34,7 @@ export const Nav = styled.nav`
           background-color: rgba(25,25,25, 0.9);
         }
         
-        li {
+        a {
           margin-left:15px;
         }
     
