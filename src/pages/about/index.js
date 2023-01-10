@@ -1,11 +1,12 @@
 import { Header } from "../../components/header"
 import { Footer } from "../../components/footer"
+import { Main } from "../../components/about"
 
 export const About = ()=>{
     return(
         <>
         <Header/>
-        <h2>Olá</h2>
+        <Main/>
         <Footer/>
         </>
     )
