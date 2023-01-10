@@ -18,7 +18,7 @@ div{
         width:450px;
         border-radius:15px;
         @media (max-width: 975px){
-            width:350px;
+            display:none;
         }    
     }
 }
