@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
       height: 100vh;
       width: 100%;
       font-family: 'Roboto', sans-serif;  
-      @media (max-width: 975px){
+      @media (max-width: 1025px){
        background-repeat: repeat;
     }   
       
