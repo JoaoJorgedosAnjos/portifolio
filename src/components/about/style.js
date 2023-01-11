@@ -31,7 +31,9 @@ section{
     width:450px;
     height:630px;
     padding:10px;
+    border:1px solid blueviolet;
     background-color: rgba(25, 25, 25, 0.7);
+
     border-radius:20px;
       
     @media (max-width: 975px){
@@ -40,7 +42,7 @@ section{
     }
 
     span{
-        color:#8A2BE2;
+        color:#FFBF00;
     }
 
     h1{
@@ -50,6 +52,7 @@ section{
     p{
         font-size:18px;
         font-weight:600;
+        
     }
 
     a{
