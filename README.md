@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Portifólio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Indice
+1. Descrição da aplicação
+2. Ferramentas utilizadas
+3. Justificativa do design do projeto
+4. Como baixar/clonar e rodar o projeto
 
-## Available Scripts
+<img src="./public/assets/img/desktop.gif" alt="Gif mostrando a aplicação em uma tela de computador">
 
-In the project directory, you can run:
+### 1. Descrição da aplicação:
+Aplicação do meu portifólio em SPA utilizando React. Nela é possível entrar em contato e ver minhas redes sociais e repositórios, como o LinkedIn, Github, enviar email e mensagem pelo WhatsApp e Telegram. 
+O portifólio tem uma página inicial de boas-vindas, uma página de “sobre”, com uma breve apresentação sobre mim, uma página de “habilidades” mostrando as tecnologias que tenho conhecimento e uma página de “projeto”, com os projetos mais relevantes que já fiz, uma descrição e os links para o repositório e também da aplicação rodando (GitPages ou Versel).
+A aplicação é responsiva, e funciona bem em todos os tamanhos de tela.
+<img src="./public/assets/img/tablet-phone.gif" alt="Gif mostrando a aplicação em telas de celulares e tablets">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Ferramentas utilizadas
+Javascript juntamente com o React. O React foi utilizado porque era preciso criar uma aplicação de página única, SPA (single page application). Styled component foi utilizado para estilizar grande parte dos componentes da aplicação.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Justificativa do design do projeto
+A aplicação foi pensada para demonstrar meus projetos e habilidades de uma forma dinâmica, criativa e que me representasse. O portifólio foi feito utilizando React também para demonstrar que posso criar aplicação interessantes com ele, mas, também porque é uma tecnologia que é muito requisitada no mercado. Logo como esse portifólio foi criado com o intuito de ingressar no mercado de trabalho, seja com freelancer e/ou CLT/PJ, é mais interessante que ele use as tecnologias que são requisitadas nesse mercado. 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ### 4. Como baixar/clonar e rodar o projeto
+1.	Clonar ou baixar o código do repositório
+2.	Abrir o projeto dentro do Visual Studio Code (Vs Code)
+3.	Instalar os pacotes utilizados no projeto no terminal com “npm install”
+4.	Inicializar o projeto com o “npm start” no terminal
