@@ -8,7 +8,7 @@ flex-direction:column;
 align-items:center;
 gap:25px;
 color:#FFBF00;
-@media (max-width: 1025px){
+@media (max-width: 1029px){
     height:100%;
 }
 
@@ -22,10 +22,9 @@ color:white;
 display:flex;
 flex-wrap: wrap;
 justify-content:center;
-margin-top:70px;
+margin-top:40px;
 width:1000px;
 gap:25px;
-margin-bottom:45px;
 
 @media (max-width: 1029px){
     width:500px;
@@ -43,7 +42,8 @@ div{
     justify-content:center;
     align-items:center;
     padding:10px;
-    backdrop-filter: blur(5px);
+    background-color: rgba(25, 25, 25, 0.4);
+        
 }
 h2{
     color:#FFBF00;
