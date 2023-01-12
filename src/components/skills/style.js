@@ -22,7 +22,7 @@ color:white;
 display:flex;
 flex-wrap: wrap;
 justify-content:center;
-margin-top:40px;
+margin:40px 0;
 width:1000px;
 gap:25px;
 
