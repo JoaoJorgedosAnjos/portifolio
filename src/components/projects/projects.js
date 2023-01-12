@@ -77,8 +77,5 @@ export const Projects = () => {
                 </nav>
             </div>
         </S.Section>
-
-
-
     )
 }
