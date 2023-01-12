@@ -10,5 +10,4 @@ export function Header() {
             <Burger />
         </S.Header>
     )
-
 }

@@ -8,13 +8,13 @@ const AppRoutes = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route exact path="/" element={<Home/>} />
-                <Route exact path="/sobre" element={<About/>} />
-                <Route exact path="/habilidades" element={<Skills/>} />
-                <Route exact path="/projetos" element={<Project/>} />
+                <Route exact path="/" element={<Home />} />
+                <Route exact path="/sobre" element={<About />} />
+                <Route exact path="/habilidades" element={<Skills />} />
+                <Route exact path="/projetos" element={<Project />} />
             </Routes>
         </BrowserRouter>
     )
 }
 
-export { AppRoutes}
+export { AppRoutes }

@@ -5,7 +5,7 @@ export const Main = () => {
     return (
         <S.Container>
             <div>
-                <img src={Pc} alt="gif de uma sala com notebook em cima da mesa com vista para uma janela"/>
+                <img src={Pc} alt="gif de uma sala com notebook em cima da mesa com vista para uma janela" />
             </div>
             <section>
                 <h1>Olá! <span>Seja bem-vindo ao meu portifólio.</span> Me chamo João Jorge, sou desenvolvedor Front-end em formação.</h1>

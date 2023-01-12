@@ -6,8 +6,8 @@ export function Home() {
     return (
         <>
             <Header />
-            <Main/>
-            <Footer/>
+            <Main />
+            <Footer />
         </>
     )
 }
