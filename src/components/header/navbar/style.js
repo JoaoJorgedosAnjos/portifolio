@@ -19,7 +19,7 @@ export const Nav = styled.nav`
       
     @media (max-width: 975px) {
         flex-flow: column nowrap;
-        background-color: rgba(25,25,25, 0.3);
+        background-color: rgba(25,25,25, 0.9);
         position: fixed;
         transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: 0;
@@ -30,9 +30,6 @@ export const Nav = styled.nav`
         transition: transform 0.3s ease-in-out;
         gap:20px;
 
-        @media (max-width: 680px){
-          background-color: rgba(25,25,25, 0.9);
-        }
         
         a {
           margin-left:15px;
