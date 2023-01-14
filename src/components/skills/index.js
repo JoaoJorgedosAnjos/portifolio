@@ -6,8 +6,8 @@ export const Main = () => {
         <S.Container>
             <h1>Habilidades</h1>
             <S.Skills>
-                {skills.map((skill)=>{
-                    return(
+                {skills.map((skill) => {
+                    return (
                         <div key={skill.id}>
                             <h3>{skill.icon}</h3>
                             <h2>{skill.name}</h2>
