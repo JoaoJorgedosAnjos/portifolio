@@ -2,12 +2,11 @@ import styled from "styled-components"
 
 export const Container = styled.main`
 width:100;
-height:82vh;
+height:calc(100vh - 130px);
 display:flex;
 justify-content:center;
 align-items: center;
 color:white;
-
 
 section{
     display:flex;
