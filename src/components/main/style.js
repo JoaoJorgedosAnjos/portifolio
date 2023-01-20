@@ -10,7 +10,7 @@ color:white;
 
 section{
     display:flex;
-    @media (max-width: 975px){
+    @media (max-width: 1000px){
         display:block;   
     }
 }
@@ -21,7 +21,7 @@ div{
     align-items: center;
     width:500px;
     height:400px;
-    @media (max-width: 975px){
+    @media (max-width: 1000px){
         height:300px;
         width:300px;
     }
@@ -29,14 +29,14 @@ div{
     p,h2{
         font-size:40px;
         font-weight: 700;  
-        @media (max-width: 975px){
+        @media (max-width: 1000px){
             font-size:25px;
         }
     }
     h1{
         font-size:46px;
         font-weight: 700;
-        @media (max-width: 975px){
+        @media (max-width: 1000px){
             font-size:30px;
         }  
     }
@@ -51,10 +51,8 @@ span{
 export const ImgPhoto = styled.img`
     width:335px;
     border-radius:50%;
-    //transform: rotate(-10deg);
-    //border:5px solid white;
     box-shadow: rgba(255, 255, 255, 0.4) 0px 5px 15px;
-    @media (max-width: 975px){
+    @media (max-width: 1000px){
         width:300px;
     }
 `
